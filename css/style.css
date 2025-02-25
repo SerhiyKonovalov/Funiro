@@ -791,6 +791,7 @@ summary {
 }
 
 .actions-header__item_user {
+  background: #e89f71;
   overflow: hidden;
   border-radius: 50%;
 }
