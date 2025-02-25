@@ -4000,13 +4000,20 @@
             spaceBetween: 32,
             watchOverflow: true,
             autoHeight: false,
-            speed: 800,
+            speed: 700,
             grabCursor: true,
             loop: true,
-            loopAdditionalSlides: 5,
-            preloadImages: false,
+            centeredSlides: true,
+            preloadImages: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            loopAdditionalSlides: 1,
             parallax: true,
             effect: "fade",
+            autoplay: {
+                delay: 3e3,
+                disableOnInteraction: false
+            },
             pagination: {
                 el: ".controls-slider-main__dotts",
                 clickable: true
